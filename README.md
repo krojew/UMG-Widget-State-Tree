@@ -8,3 +8,18 @@ State Tree support in UMG widgets.
 2. Create a State Tree using WidgetStateTreeSchema as the schema.
 3. In the desired widget, choose a State Tree in the toolbar: ![widget setup](state-tree-widget.png)
 4. In your State Tree context, you can select the widget class (named _OwningWidget_) and additional items to be passed to the tree tasks. Named child widgets will also become available in the context.
+
+## Available context data
+
+* owning widget
+* world subsystems
+* local player subsystems
+* game instance subsystems
+* owning player controller
+* owning pawn
+* owning local player
+* game mode
+* game state
+* owning player state
+* widget animations
+* child widgets
